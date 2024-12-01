@@ -89,7 +89,7 @@ def extraire_jeux_video(soup, output_json, output_excel):
     else:
         print("Section 'Jeux vidéo' introuvable.")
 
-# 4 - Extraction des données du tableau et création d'un CSV (Sujet 1 suite)
+# 4 - Extraction des données et création d'un CSV (Sujet 1 suite)
 url = 'https://www.worldometers.info/world-population/germany-population/'
 response = requests.get(url)
 soup = BeautifulSoup(response.content, 'html.parser')
